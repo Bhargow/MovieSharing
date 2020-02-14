@@ -35,6 +35,9 @@
 		9066FE0923F43A7200ABA687 /* MSAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9066FDF123F3FE0B00ABA687 /* MSAPIManager.swift */; };
 		9066FE0F23F4546900ABA687 /* MSCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9066FE0E23F4546900ABA687 /* MSCollectionViewCell.swift */; };
 		9066FE1023F4546900ABA687 /* MSCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9066FE0E23F4546900ABA687 /* MSCollectionViewCell.swift */; };
+		906955FB23F6EC7300009284 /* MSActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906955FA23F6EC7300009284 /* MSActivityIndicatorView.swift */; };
+		906955FD23F6ED2300009284 /* MSActivityIndicatorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 906955FC23F6ED2300009284 /* MSActivityIndicatorView.xib */; };
+		906955FE23F6EE2300009284 /* MSActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906955FA23F6EC7300009284 /* MSActivityIndicatorView.swift */; };
 		90EB0C7E23F575AB0007E35D /* MSGridTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EB0C7D23F575AB0007E35D /* MSGridTableViewController.swift */; };
 		90EB0C8023F577980007E35D /* MSGridTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EB0C7F23F577980007E35D /* MSGridTableViewCell.swift */; };
 		90EB0C8223F5783F0007E35D /* MSGridCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EB0C8123F5783F0007E35D /* MSGridCellViewModel.swift */; };
@@ -84,6 +87,8 @@
 		9066FE0423F437CE00ABA687 /* MSMovieListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSMovieListViewModel.swift; sourceTree = "<group>"; };
 		9066FE0723F4382900ABA687 /* MSMovieCollectionListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSMovieCollectionListViewModelTests.swift; sourceTree = "<group>"; };
 		9066FE0E23F4546900ABA687 /* MSCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSCollectionViewCell.swift; sourceTree = "<group>"; };
+		906955FA23F6EC7300009284 /* MSActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSActivityIndicatorView.swift; sourceTree = "<group>"; };
+		906955FC23F6ED2300009284 /* MSActivityIndicatorView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MSActivityIndicatorView.xib; sourceTree = "<group>"; };
 		90EB0C7D23F575AB0007E35D /* MSGridTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSGridTableViewController.swift; sourceTree = "<group>"; };
 		90EB0C7F23F577980007E35D /* MSGridTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSGridTableViewCell.swift; sourceTree = "<group>"; };
 		90EB0C8123F5783F0007E35D /* MSGridCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSGridCellViewModel.swift; sourceTree = "<group>"; };
@@ -203,6 +208,8 @@
 			isa = PBXGroup;
 			children = (
 				9066FDF623F4065500ABA687 /* MSExtentionsConstants.swift */,
+				906955FA23F6EC7300009284 /* MSActivityIndicatorView.swift */,
+				906955FC23F6ED2300009284 /* MSActivityIndicatorView.xib */,
 			);
 			path = UtilsAndConstants;
 			sourceTree = "<group>";
@@ -351,6 +358,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9066FDCD23F3EA5C00ABA687 /* LaunchScreen.storyboard in Resources */,
+				906955FD23F6ED2300009284 /* MSActivityIndicatorView.xib in Resources */,
 				9066FDCA23F3EA5C00ABA687 /* Assets.xcassets in Resources */,
 				9066FDC823F3EA5B00ABA687 /* Main.storyboard in Resources */,
 			);
@@ -386,6 +394,7 @@
 				9066FDFE23F4376300ABA687 /* MSMovieImages.swift in Sources */,
 				90EB0C7E23F575AB0007E35D /* MSGridTableViewController.swift in Sources */,
 				9066FDFB23F42B0400ABA687 /* MSMovieModel.swift in Sources */,
+				906955FB23F6EC7300009284 /* MSActivityIndicatorView.swift in Sources */,
 				90574EE623F6C0F7008855E9 /* ViewController.swift in Sources */,
 				9066FE0F23F4546900ABA687 /* MSCollectionViewCell.swift in Sources */,
 				90574EE023F690DF008855E9 /* MSMovieDetailsViewController.swift in Sources */,
@@ -410,6 +419,7 @@
 				9066FE0823F4382900ABA687 /* MSMovieCollectionListViewModelTests.swift in Sources */,
 				9066FE1023F4546900ABA687 /* MSCollectionViewCell.swift in Sources */,
 				9066FE0623F437CE00ABA687 /* MSMovieListViewModel.swift in Sources */,
+				906955FE23F6EE2300009284 /* MSActivityIndicatorView.swift in Sources */,
 				9066FDFC23F42B0400ABA687 /* MSMovieModel.swift in Sources */,
 				9066FDFF23F4376300ABA687 /* MSMovieImages.swift in Sources */,
 			);

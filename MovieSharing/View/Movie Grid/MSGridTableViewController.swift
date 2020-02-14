@@ -16,7 +16,7 @@ class MSGridViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         movieListViewModel = MSMovieListViewModel(delegate: self)
-        showProgress()
+        showProgress() 
         movieListViewModel.getMovieList()
         movieGridTableView.tableFooterView = UIView()
     }

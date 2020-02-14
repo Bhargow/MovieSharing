@@ -24,11 +24,18 @@ extension UIViewController {
     
     func showProgress() {
         hideProgress()
-        let activityIndicatorView = UIActivityIndicatorView(style: .gray)
+        let activityIndicatorView = MSActivityIndicatorView.instanceFromNib()
         activityIndicatorView.tag = activityIndicatorViewTag
-        activityIndicatorView.frame = CGRect(x: self.view.bounds.midX - 50, y: self.view.bounds.midY - 50, width: 100, height: 100)
-        activityIndicatorView.startAnimating()
         self.view.addSubview(activityIndicatorView)
+        activityIndicatorView.translatesAutoresizingMaskIntoConstraints = false
+        let constX:NSLayoutConstraint = NSLayoutConstraint(item: activityIndicatorView, attribute: NSLayoutConstraint.Attribute.centerX, relatedBy: NSLayoutConstraint.Relation.equal, toItem: self.view, attribute: NSLayoutConstraint.Attribute.centerX, multiplier: 1, constant: 0);
+        
+        let constY:NSLayoutConstraint = NSLayoutConstraint(item: activityIndicatorView, attribute: NSLayoutConstraint.Attribute.centerY, relatedBy: NSLayoutConstraint.Relation.equal, toItem: self.view, attribute: NSLayoutConstraint.Attribute.centerY, multiplier: 1, constant: 0);
+        
+        let constWidth:NSLayoutConstraint = NSLayoutConstraint(item: activityIndicatorView, attribute: NSLayoutConstraint.Attribute.width, relatedBy: NSLayoutConstraint.Relation.equal, toItem: self.view, attribute: NSLayoutConstraint.Attribute.width, multiplier: 1, constant: 0);
+        
+        let constHeight:NSLayoutConstraint = NSLayoutConstraint(item: activityIndicatorView, attribute: NSLayoutConstraint.Attribute.height, relatedBy: NSLayoutConstraint.Relation.equal, toItem: self.view, attribute: NSLayoutConstraint.Attribute.height, multiplier: 1, constant: 0);
+        self.view.addConstraints([constX,constY,constWidth,constHeight])
     }
     
     func hideProgress() {
@@ -36,8 +43,7 @@ extension UIViewController {
         let filteredViews = self.view.subviews.filter { (view) -> Bool in
             return view.tag == activityIndicatorViewTag
         }
-        if let activityIndicatorView = filteredViews.first as? UIActivityIndicatorView {
-            activityIndicatorView.stopAnimating()
+        if let activityIndicatorView = filteredViews.first as? MSActivityIndicatorView {
             activityIndicatorView.removeFromSuperview()
         }
     }

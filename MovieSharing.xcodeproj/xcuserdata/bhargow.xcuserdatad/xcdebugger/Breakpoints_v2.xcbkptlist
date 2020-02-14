@@ -121,54 +121,6 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "MovieSharing/ViewModel/MSMovieListViewModel.swift"
-            timestampString = "603381348.129573"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "62"
-            endingLineNumber = "62"
-            landmarkName = "getMovieList(urlStr:with:forFavourites:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "MovieSharing/ViewModel/MSMovieListViewModel.swift"
-            timestampString = "603381348.1296721"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "58"
-            endingLineNumber = "58"
-            landmarkName = "getMovieList(urlStr:with:forFavourites:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "MovieSharing/ViewModel/MSMovieListViewModel.swift"
-            timestampString = "603381348.129774"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47"
-            landmarkName = "getMovieList(urlStr:with:forFavourites:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "MovieSharing/View/Grid/MSGridTableViewController.swift"
             timestampString = "603380546.555933"
             startingColumnNumber = "9223372036854775807"
@@ -177,36 +129,84 @@
             endingLineNumber = "68"
             landmarkName = "showError(_:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieSharing/View/Movie List/MSListTableViewCell.swift"
+            timestampString = "603384086.995461"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "awakeFromNib()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieSharing/View/Movie List/MSListViewController.swift"
+            timestampString = "603385529.246382"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "showError(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieSharing/ViewModel/MSMovieListViewModel.swift"
+            timestampString = "603385604.7040761"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "getMovieList(urlStr:with:forFavourites:)"
+            landmarkType = "7">
             <Locations>
                <Location
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "MovieSharing.MSGridViewController.showError(Swift.String) -&gt; ()"
+                  symbolName = "MovieSharing.MSMovieListViewModel.getMovieList(urlStr: Swift.String, with: Swift.Dictionary&lt;MovieSharing.APIParameters, Any&gt;, forFavourites: Swift.Bool) -&gt; ()"
                   moduleName = "MovieSharing"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/bhargow/Desktop/Bhargow/MovieSharing/MovieSharing/View/Grid/MSGridTableViewController.swift"
-                  timestampString = "603379789.313604"
+                  urlString = "file:///Users/bhargow/Desktop/Bhargow/MovieSharing/MovieSharing/ViewModel/MSMovieListViewModel.swift"
+                  timestampString = "603385604.851337"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "68"
-                  endingLineNumber = "68"
-                  offsetFromSymbolStart = "54">
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "117">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in MovieSharing.MSGridViewController.showError(Swift.String) -&gt; ()"
+                  symbolName = "closure #1 (Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; () in MovieSharing.MSMovieListViewModel.getMovieList(urlStr: Swift.String, with: Swift.Dictionary&lt;MovieSharing.APIParameters, Any&gt;, forFavourites: Swift.Bool) -&gt; ()"
                   moduleName = "MovieSharing"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/bhargow/Desktop/Bhargow/MovieSharing/MovieSharing/View/Grid/MSGridTableViewController.swift"
-                  timestampString = "603379789.315047"
+                  urlString = "file:///Users/bhargow/Desktop/Bhargow/MovieSharing/MovieSharing/ViewModel/MSMovieListViewModel.swift"
+                  timestampString = "603385604.8534909"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "68"
-                  endingLineNumber = "68"
-                  offsetFromSymbolStart = "30">
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "122">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -217,13 +217,77 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "MovieSharing/Model/MSMovieModel.swift"
-            timestampString = "603381348.1299289"
+            filePath = "MovieSharing/ViewModel/MSMovieListViewModel.swift"
+            timestampString = "603385604.704134"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
-            landmarkName = "init(from:)"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "getMovieList(urlStr:with:forFavourites:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieSharing/UtilsAndConstants/MSExtentionsConstants.swift"
+            timestampString = "603385714.286456"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "hideProgress()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(extension in MovieSharing):__C.UIViewController.hideProgress() -&gt; ()"
+                  moduleName = "MovieSharing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bhargow/Desktop/Bhargow/MovieSharing/MovieSharing/UtilsAndConstants/MSExtentionsConstants.swift"
+                  timestampString = "603385604.861295"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "47">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.UIView) -&gt; Swift.Bool in (extension in MovieSharing):__C.UIViewController.hideProgress() -&gt; ()"
+                  moduleName = "MovieSharing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bhargow/Desktop/Bhargow/MovieSharing/MovieSharing/UtilsAndConstants/MSExtentionsConstants.swift"
+                  timestampString = "603385604.8638639"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieSharing/UtilsAndConstants/MSExtentionsConstants.swift"
+            timestampString = "603385714.286512"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "hideProgress()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
